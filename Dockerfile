@@ -1,4 +1,5 @@
-FROM openshift/ruby-20-centos7
+#FROM openshift/ruby-20-centos7
+FROM docker.io/centos/ruby-22-centos7
 
 USER default
 EXPOSE 8080
